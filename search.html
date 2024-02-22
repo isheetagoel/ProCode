@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Programming Languages</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        #search-box {
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+            font-size: 16px;
+            background-color: white;
+            border: none;
+            color: black;
+            margin-bottom: 20px;
+        }
+        #language-list {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            padding: 0;
+            margin: 0;
+            list-style-type: none;
+        }
+        #language-list li {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        #language-list li a {
+            color: white;
+            text-decoration: none;
+            display: flex;
+            flex-direction: column; /* Adjusted to display text below image */
+            align-items: center;
+            font-size: 18px;
+        }
+        #language-list li a img {
+            margin-bottom: 10px;
+            width: 100px; /* Increased image size */
+            height: 100px; /* Increased image size */
+        }
+    </style>
+</head>
+<body>
+    <h1>Search Programming Languages</h1>
+    <input type="search" id="search-box" placeholder="Search for languages">
+
+    <h2>Popular Languages</h2>
+    <ul id="language-list">
+        <li>
+            <a href="javascript.html">
+                <img src="C:\Users\Jayasri\Desktop\BOLT 2.0\ProCode\images\WhatsApp Image 2024-02-23 at 02.27.29_5caab9b5.jpg" alt="JavaScript icon">
+                <span>JavaScript</span>
+            </a>
+        </li>
+        <li>
+            <a href="python.html">
+                <img src="C:\Users\Jayasri\Desktop\BOLT 2.0\ProCode\images\WhatsApp Image 2024-02-23 at 02.27.29_a87713d9.jpg" alt="Python icon">
+                <span>Python</span>
+            </a>
+        </li>
+        <li>
+            <a href="html.html">
+                <img src="C:\Users\Jayasri\Desktop\BOLT 2.0\ProCode\images\WhatsApp Image 2024-02-23 at 02.27.21_61b2886e.jpg" alt="HTML icon">
+                <span>HTML</span>
+            </a>
+        </li>
+        <li>
+            <a href="css.html">
+                <img src="C:\Users\Jayasri\Desktop\BOLT 2.0\ProCode\images\WhatsApp Image 2024-02-23 at 02.27.23_e91fbacc.jpg" alt="CSS icon">
+                <span>CSS</span>
+            </a>
+        </li>
+        <li>
+            <a href="java.html">
+                <img src="C:\Users\Jayasri\Desktop\BOLT 2.0\ProCode\images\WhatsApp Image 2024-02-23 at 02.27.21_c794d23a.jpg" alt="Java icon">
+                <span>Java</span>
+            </a>
+        </li>
+        <li>
+            <a href="sql.html">
+                <img src="C:\Users\Jayasri\Desktop\BOLT 2.0\ProCode\images\WhatsApp Image 2024-02-23 at 02.27.29_24c5a4e7.jpg" alt="SQL icon">
+                <span>SQL</span>
+            </a>
+        </li>
+        <li>
+            <a href="c++.html">
+                <img src="C:\Users\Jayasri\Desktop\BOLT 2.0\ProCode\images\WhatsApp Image 2024-02-23 at 02.27.22_3e52ad30.jpg" alt="C++ icon">
+                <span>C++</span>
+            </a>
+        </li>
+        <li>
+            <a href="ruby.html">
+                <img src="C:\Users\Jayasri\Desktop\BOLT 2.0\ProCode\images\WhatsApp Image 2024-02-23 at 02.27.28_0ba6bc93.jpg" alt="Ruby icon">
+                <span>Ruby</span>
+            </a>
+        </li>
+    </ul>
+</body>
+</html>
