@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        #container {
+            display: flex;
+            flex-direction: row;
+            width: 80%;
+        }
+
+        #left-side {
+            flex: 1;
+        }
+
+        #right-side {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        h1 {
+            font-weight: bold;
+            font-size: 36px; /* Increased font size */
+            font-family: 'Arial', sans-serif;
+            color: white; /* Changed font color to white */
+            margin-bottom: 40px; /* Increased margin */
+            margin-top: 20px; /* Added margin top */
+            font-family: 'Arial Black', sans-serif; /* Changed font family */
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 250px; /* Adjusted width */
+            padding: 12px; /* Increased padding */
+            margin-bottom: 30px; /* Increased margin */
+            border-radius: 15px; /* Rounded corners */
+            border: none;
+            background-color: white; /* Changed background color */
+            color: black; /* Changed text color */
+            font-size: 18px; /* Increased font size */
+        }
+
+        button {
+            padding: 12px 24px; /* Increased padding */
+            border: none;
+            border-radius: 15px; /* Rounded corners */
+            background-color: rgb(37,89,179);
+            color: white;
+            cursor: pointer;
+            margin-bottom: 30px; /* Increased margin */
+            font-size: 18px; /* Increased font size */
+        }
+
+        button:hover {
+            background-color: #2063e7;
+        }
+
+        p {
+            margin-top: 20px;
+            text-decoration: underline;
+            cursor: pointer;
+            font-size: 16px; /* Increased font size */
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div id="left-side">
+            <img src="C:\Users\Jayasri\Desktop\BOLT 2.0\ProCode\images\p4.jpg" alt="Image" />
+        </div>
+        <div id="right-side">
+            <h1>Enter Credentials</h1>
+            <input type="text" placeholder="Username" /> <!-- Changed placeholder -->
+            <input type="password" placeholder="Password" /> <!-- Changed placeholder -->
+            <button>LOGIN</button>
+            <p>Forgot password?</p>
+            <button>Login with Google</button>
+        </div>
+    </div>
+</body>
+
+</html>
