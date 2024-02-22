@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProCode</title>
+    <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@400;600;700;800&family=Fredoka+the+Great:wght@300;400;500;600;700&family=Gentium+Basic:ital,wght@0,400;0,700;1,400;1,700" rel="stylesheet">
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif; /* Default font */
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 2rem;
+        }
+
+        .logo {
+            font-family: "Darker Grotesque", sans-serif;
+            font-size: 2rem;
+            color: white;
+        }
+
+        nav {
+            display: flex; /* Set display to flex for horizontal layout */
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            font-family: "Fredoka the Great";
+            font-weight: 400;
+            font-size: 38px; /* Use 38px for desired font size */
+            padding: 1rem 2rem; /* Adjust padding if needed */
+            transition: color 0.2s ease-in-out;
+        }
+
+        nav a.active {
+            color: purple; /* Set active button color to purple */
+        }
+
+        nav a:hover {
+            color: #cccccc;
+        }
+
+        main {
+            padding: 0; /* Remove padding to cover whole page */
+        }
+
+        .hero-image {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Set height to 100vh */
+            margin: 0 4rem; /* Add margin on left and right */
+        }
+
+        .hero-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Cover the entire space */
+            opacity: 0.3;
+        }
+
+        .hero-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: white;
+        }
+
+        .hero-text h2 {
+            font-family: "Gentium Basic", serif;
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .hero-text h3 {
+            font-weight: 400;
+            font-size: 1.2rem;
+        }
+
+.join-bar {
+  display: flex; /* Allow stacking elements vertically */
+  flex-direction: column; /* Stack elements on top of each other */
+  text-align: center; /* Center content horizontally */
+  padding: 2rem 0; /* Add top and bottom padding */
+}
+
+.join-bar hr {
+  height: 1px; /* Set line height for the divider */
+  background-color: #cccccc; /* Set divider color */
+  margin: 2rem 0; /* Add margin top and bottom for the divider */
+}
+
+.join-bar h3 {
+  font-family: "Fredoka the Great", cursive; /* Set font for the title */
+  font-size: 40px; /* Set title font size */
+  margin-bottom: 1rem; /* Add margin bottom for the title */
+  color: white; /* Set title color */
+  background-color: black; /* Set title background color */
+  padding: 1rem 2rem; /* Add padding for the title */
+  border-bottom: 2px solid white; /* Add bottom border for the title */
+}
+
+.join-bar .buttons {
+  display: flex; /* Allow horizontal button placement */
+  justify-content: center; /* Center buttons horizontally */
+  gap: 1rem; /* Add gap between buttons */
+}
+
+.join-bar .buttons a {
+  text-decoration: none; /* Remove underline from buttons */
+  color: white; /* Set button text color */
+  font-family: Arial, sans-serif; /* Set button font */
+  padding: 1rem 2rem; /* Add padding for buttons */
+  background-color: #2559B3; /* Set button background color */
+  transition: background-color 0.2s ease-in-out; /* Add hover effect transition */
+}
+
+.join-bar .buttons a:hover {
+  background-color: #3870C0; /* Change button background color on hover */
+}
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <h1>ProCode</h1>
+        </div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Streaks</a>
+            <a href="#">Goals</a>
+            <a href="#">Compete</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="hero-image">
+            <img src="images/create-account-7467153-6110939.webp" alt="Hero image">
+            <div class="hero-text">
+                <h2>UNLEASH YOUR CODING GENIUS</h2>
+                <h3>Learn programming for free, the fun and easy way!</h3>
+            </div>
+        </div>
+        <div class="join-bar">
+            <hr style="height: 1px; background-color: #cccccc; margin: 2rem 0;">
+        
+            <h3 style="font-family: 'Fredoka the Great'; font-size: 40px; margin-bottom: 1rem; color: white; background-color: black; padding: 1rem 2rem; border-bottom: 2px solid white;">Join our community of coders</h3>
+        
+            <div class="buttons">
+                <a href="#" style="background-color: #2559B3; color: white; padding: 1rem 2rem; text-decoration: none; font-family: Arial, sans-serif;">Sign Up</a>
+            </div>
+        
+            <div class="buttons">
+                <a href="#" style="background-color: #2559B3; color: white; padding: 1rem 2rem; text-decoration: none; font-family: Arial, sans-serif;">Login</a>
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>
